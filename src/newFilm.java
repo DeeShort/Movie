@@ -9,7 +9,7 @@ public class newFilm {
         //scanning a file
         Scanner sfile = new Scanner(ffile);
         //reading in a var new line
-        
+
         //saving string in string array
         //select randomly one film from array
         //save in newFilm var
