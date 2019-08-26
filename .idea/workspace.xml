@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d39d11c1-1db6-4e1e-84aa-84a3f397c6e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/films.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/movie/movie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newFilm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Typetester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/movie/movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/movie/movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newFilm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newFilm.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,19 +1,24 @@
 import java.io.File;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
-public class newFilm {
-    String newFilm;
-    public String getNovFilm()throws Exception {
-        //resding a file
-        File ffile = new File("films.txt");
-        //scanning a file
-        Scanner sfile = new Scanner(ffile);
-        //reading in a var new line
+class newFilm {
+    static String getNovFilm()throws Exception {
 
-        //saving string in string array
-        //select randomly one film from array
-        //save in newFilm var
+                List<String> lines= Files.readAllLines(Paths.get("films.txt"), Charset.defaultCharset());
 
-        return newFilm;
+                //Random from list/ size
+                int index=(int)(Math.random()*lines.size());
+
+                //Prisvoenie newFilm - random index from list
+                String newF=lines.get(index);
+
+
+        return newF;
     }
+
 }
